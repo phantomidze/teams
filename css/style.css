@@ -200,3 +200,36 @@ header h1 {
         height: 150px;
     }
 }
+
+
+
+/* style.css */
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для членов команды */
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Равномерное распределение между столбцами */
+}
+
+/* Стили для каждого члена команды */
+.team-member {
+    width: calc(50% - 20px);
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Стили для изображений членов команды */
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
