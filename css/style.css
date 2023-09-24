@@ -203,6 +203,41 @@ header h1 {
 
 
 
+
+
+
+
+/* style.css */
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для контейнера музыки */
+.music-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Стили для заголовка музыки h2 */
+.music-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Стили для аудиоэлемента */
+.music-container audio {
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина аудиоэлемента */
+    margin: 0 auto;
+    display: block;
+}
+
+
+
 /* style.css */
 
 /* ... (ваш предыдущий CSS код) */
@@ -233,3 +268,14 @@ header h1 {
     margin-bottom: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
+
+/* Добавляем медиа-запрос для адаптивности на мобильных устройствах */
+@media (max-width: 768px) {
+    /* Стили для членов команды на мобильных устройствах */
+    .team-member {
+        width: 100%;
+    }
+}
+
+
+
