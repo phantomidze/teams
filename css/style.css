@@ -9,14 +9,14 @@
 
 /* Устанавливаем стили для body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffce6;
 }
 
 /* Стили для header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1f1f1f;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -24,7 +24,9 @@ header {
 
 /* Стили для заголовка h1 */
 header h1 {
-    font-size: 36px;
+    font-size: 38px;
+    text-shadow: 0 0 5px red;
+
 }
 
 /* Стили для контейнера с командой */
@@ -32,8 +34,7 @@ header h1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fffce6; /* Градиент от верхнего к нижнему краю контейнера */
     border-radius: 5px;
     text-align: center;
 }
@@ -42,6 +43,8 @@ header h1 {
 .container h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: dark;
+    text-shadow: 0 0 5px red;
 }
 
 /* Стили для членов команды */
@@ -57,7 +60,7 @@ header h1 {
     max-width: 300px;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     text-align: center;
@@ -77,25 +80,15 @@ header h1 {
     font-size: 16px;
 }
 
-/* Стили для ссылок на Instagram */
-.team-member a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 3px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
+/* style.css */
 
-.team-member a:hover {
-    background-color: #555;
-}
+/* ... (ваш предыдущий CSS код) */
+
+
 
 /* Стили для контейнера Telegram каналов */
 .telegram-links {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -103,13 +96,14 @@ header h1 {
 .telegram-links h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: whitesmoke;
 }
 
 /* Стили для контейнера ссылок на Telegram каналы */
 .telegram-container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 /* Стили для ссылок на Telegram каналы */
@@ -125,7 +119,7 @@ header h1 {
 }
 
 .telegram-container a:hover {
-    background-color: #0066aa;
+    background-color: #1f1f1f;
 }
 
 /* Стили для контейнера галереи */
@@ -133,8 +127,7 @@ header h1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fffce6; /* Градиент от верхнего к нижнему краю контейнера */
     border-radius: 5px;
     text-align: center;
 }
@@ -143,6 +136,8 @@ header h1 {
 .gallery-container h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 5px red;
 }
 
 /* Стили для галереи */
@@ -206,7 +201,6 @@ header h1 {
 
 
 
-
 /* style.css */
 
 /* ... (ваш предыдущий CSS код) */
@@ -216,10 +210,11 @@ header h1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fffce6;
     border-radius: 5px;
     text-align: center;
+    display: flex; /* Добавляем flex-контейнер для выравнивания аудиоэлементов */
+    justify-content: space-between; /* Равномерное распределение между элементами */
 }
 
 /* Стили для заголовка музыки h2 */
@@ -228,13 +223,22 @@ header h1 {
     margin-bottom: 20px;
 }
 
-/* Стили для аудиоэлемента */
+/* Стили для аудиоэлементов */
 .music-container audio {
     width: 100%;
     max-width: 400px; /* Максимальная ширина аудиоэлемента */
     margin: 0 auto;
     display: block;
+    background-color: #fffce6;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -277,5 +281,409 @@ header h1 {
     }
 }
 
+/* style.css */
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для обведения фотографии красным цветом */
+.developer-photo {
+    border: 3px solid red; /* Обводим красным цветом */
+}
 
 
+
+.dev{
+    color:red;
+    font-weight:bold;
+    font-size: 150%;
+    text-shadow: 1px 1px 2px red, 0 0 1em red;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* style.css */
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для контейнера кнопок социальных сетей */
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стили для кнопок социальных сетей (Instagram и Telegram) */
+.social-button {
+    flex: 1; /* Распределяет пространство равномерно между кнопками */
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram-button {
+    background-color: #ff9f40; /* Цвет фона Instagram */
+    color: #fff; /* Цвет текста */
+}
+
+.telegram-button {
+    background-color: #0088cc; /* Цвет фона Telegram */
+    color: #fff; /* Цвет текста */
+}
+
+.social-button:hover {
+    opacity: 0.8; /* Уменьшение прозрачности при наведении */
+}
+
+
+
+
+/* style.css */
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для контейнера участника */
+.team-member {
+    position: relative; /* Добавляем позицию для позиционирования кнопки */
+}
+
+/* Стили для кнопки перехода на профиль */
+.profile-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0088cc;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0 0 0 5px;
+    font-size: 12px;
+}
+
+.profile-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile-link span {
+    display: inline-block;
+}
+
+/* Стили для кнопок социальных сетей (Instagram и Telegram) */
+/* ... (ваш предыдущий CSS код для кнопок Instagram и Telegram) */
+
+
+
+
+
+
+
+
+/* ... (ваш предыдущий CSS код) */
+
+/* Стили для контейнера Telegram каналов внизу страницы */
+.telegram-links {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fffce6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Стили для контейнера каждой ссылки на Telegram канал */
+.telegram-link {
+    display: flex; /* Используем flex для расположения текста и изображения в строку */
+    align-items: center; /* Выравнивание по вертикали по центру */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убираем стандартное подчеркивание ссылок */
+    color: inherit; /* Наследуем цвет текста */
+    border-radius: 5px; /* Скругление углов */
+    padding: 10px; /* Внутренний отступ */
+}
+
+/* Стили для изображений ссылок на Telegram каналы */
+.telegram-icon {
+    max-width: 100px; /* Уменьшил размер изображения */
+    border-radius: 50%; /* Скругление изображения */
+    margin-right: 10px; /* Расстояние между изображением и текстом */
+    border: 2px solid #91b2ff; /* Обводка */
+}
+
+/* Стили для текстового контента */
+.telegram-content {
+    text-align: left; /* Выравнивание текста слева */
+}
+
+.telegram-name {
+    font-weight: bold;
+    color: #383838; /* Цвет текста названия канала */
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+/* Стили для изменения цвета текста при наведении */
+.telegram-link:hover .telegram-name {
+    color: white; /* Изменяем цвет текста при наведении на ссылку */
+}
+
+/* ... (ваш предыдущий CSS код) */
+
+
+
+
+
+.team-member {
+    width: calc(50% - 20px);
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    /* Ваши другие стили */
+}
+
+/* Стили для мобильных устройств и планшетов */
+@media screen and (max-width: 768px) {
+    /* Пример адаптации ширины контейнера команды и шрифта */
+    .container {
+        max-width: 100%;
+    }
+
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    /* Другие стили для мобильных устройств */
+}
+
+
+.loader {
+  width: 48px;
+  height: 48px;
+  background: #353535;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotationBack 1s ease-in-out infinite reverse;
+}
+
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  transform: rotate(45deg);
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #2e2e2e;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: rgb(0, 0, 0);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader1 {
+  width: 100px;
+  height: 45px;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.loader1:before,
+.loader1:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #000;
+  box-shadow: 0 0 0 50px;
+  clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);
+}
+
+.loader1:after {
+  animation: l9 1s infinite;
+  transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes l9 {
+  to {
+    transform: perspective(300px) translateZ(100px);
+    opacity: 0
+  }
+}
+
+
+
+
+
+
+
+.loader3 {
+  --eye: #212121;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.loader3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border: 5px solid var(--eye);
+  border-radius: 100%;
+  animation: translate-keyframes 2s infinite linear;
+  margin-left: 125px;
+}
+
+.loader3 span {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border-top: 12px solid var(--eye);
+  border-bottom: 5px solid var(--eye);
+  outline: 2px solid var(--eye);
+}
+
+.loader3 span {
+  animation: rotate-keyframes 2s infinite linear;
+}
+
+@keyframes translate-keyframes {
+  0% {
+    transform: translate(-100%, -50%);
+  }
+
+  95% {
+    transform: translate(50%, -50%);
+  }
+
+  96% {
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    transform: translate(-100%, -50%);
+  }
+}
+
+@keyframes rotate-keyframes {
+  90% {
+    height: 40px;
+  }
+
+  95% {
+    height: 0px;
+  }
+
+  100% {
+    height: 40px;
+  }
+}
+
+
+
+
+
+.spinner2 {
+  width: 40.4px;
+  height: 40.4px;
+  --clr: rgb(247, 197, 159);
+  --clr-alpha: rgb(247, 197, 159,.1);
+  animation: spinner 1.6s infinite ease;
+  transform-style: preserve-3d;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.spinner2 > div {
+  background-color: var(--clr-alpha);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 3.5px solid var(--clr);
+}
+
+.spinner2 div:nth-of-type(1) {
+  transform: translateZ(-20.2px) rotateY(180deg);
+}
+
+.spinner2 div:nth-of-type(2) {
+  transform: rotateY(-270deg) translateX(50%);
+  transform-origin: top right;
+}
+
+.spinner2 div:nth-of-type(3) {
+  transform: rotateY(270deg) translateX(-50%);
+  transform-origin: center left;
+}
+
+.spinner2 div:nth-of-type(4) {
+  transform: rotateX(90deg) translateY(-50%);
+  transform-origin: top center;
+}
+
+.spinner2 div:nth-of-type(5) {
+  transform: rotateX(-90deg) translateY(50%);
+  transform-origin: bottom center;
+}
+
+.spinner2 div:nth-of-type(6) {
+  transform: translateZ(20.2px);
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+  }
+
+  50% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+  }
+
+  100% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+  }
+}
